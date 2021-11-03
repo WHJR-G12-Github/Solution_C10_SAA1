@@ -33,7 +33,7 @@ while True:
     # Handling the event of UP arrow key getting pressed
     # Checking if any key is pressed
     if event.type==pygame.KEYDOWN:
-        # Checking if the pressed key is the SPACE key
+        # Checking if the pressed key is the UP key
         if event.key==pygame.K_UP:
             # Calling the 'moveup()' function
             moveup()  
